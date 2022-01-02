@@ -1,0 +1,62 @@
+html, body {
+    font-family: "Righteous", cursive;
+}
+
+.col-md-10 {
+    width: 10%;
+    text-align: center;
+}
+
+.col-md-25 {
+    width: 25%;
+}
+
+.col-md-50 {
+    width: 50%;
+}
+
+.col-md-75 {
+    width: 75%;
+}
+
+.col-md-90 {
+    width: 90%;
+}
+
+.row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+td {
+    cursor: pointer;
+    border-top: 0px;
+}
+
+td.fist {
+    border-top: 0px !important;
+}
+
+.form-group {
+    margin-top: 0px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    margin-right: 2px;
+}
+
+.text-resume {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    max-width: 250px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .table {
+        width: 250px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-bottom: 0px;
+        border-top: 0px;
+    }
+}

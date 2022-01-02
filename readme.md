@@ -1,0 +1,3 @@
+### Awareness
+
+Esta extensão busca oferecer a funcionalidade de criar lembretes que sejam expressados nas telas do chrome. Você pode escolher em que moment do dia seu lembrete será disparado, adicionar um titulo e uma descrição no lembrete. A ideia desta extensão é que ela possa alertar aqueles que ficam totalmente focados na tela do computador acabando se atrasando para realizar tarefas importantes.

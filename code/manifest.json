@@ -1,0 +1,70 @@
+{
+    "manifest_version"  : 2,
+    "name"              : "Awareness",
+    "version"           : "1.0.1",
+    "description"       : "Oferece a funcionalidade de criar lembretes que sejam expressados nas telas do chrome.",
+    "homepage_url"      : "https://github.com/sancozta",
+    
+    "background"        : {
+        "page": "/app/app.html",
+        "persistent": false
+    },
+
+    "options_page": "/options/options.html",
+
+    "icons": {
+        "16"    : "/assets/icons/16.png",
+        "20"    : "/assets/icons/20.png",
+        "32"    : "/assets/icons/32.png",
+        "48"    : "/assets/icons/48.png",
+        "64"    : "/assets/icons/64.png",
+        "128"   : "/assets/icons/128.png"
+    },
+
+    "browser_action": {
+        "default_title" : "Awareness",
+        "default_popup" : "/popup/popup.html",
+        "default_icon"  : {
+            "16"    : "/assets/icons/16.png",
+            "20"    : "/assets/icons/20.png",
+            "32"    : "/assets/icons/32.png",
+            "48"    : "/assets/icons/48.png",
+            "64"    : "/assets/icons/64.png",
+            "128"   : "/assets/icons/128.png"
+        }
+    },
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage",
+        "notifications",
+        "alarms"
+    ],
+
+    "web_accessible_resources": [
+
+        "/assets/js/jquery.min.js",
+        
+        "/assets/js/bootstrap.min.js",
+
+        "/assets/css/glyphicons-halflings-regular.eot",
+        "/assets/css/glyphicons-halflings-regular.svg",
+        "/assets/css/glyphicons-halflings-regular.ttf",
+        "/assets/css/glyphicons-halflings-regular.woff",
+        "/assets/css/glyphicons-halflings-regular.woff2",
+        
+        "/assets/css/bootstrap.min.css",
+
+        "/popup/popup.css",
+        "/popup/popup.js",
+
+        "/options/options.css",
+        "/options/options.js",
+        
+        "/app/app.js",
+        "/app/app.css"
+
+    ]
+
+}
